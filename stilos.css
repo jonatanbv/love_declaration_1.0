@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.hijo{
+    border: 5px solid black;
+    width: 300px;
+    height: auto;
+}
+.padre {
+    position: relative;
+}
+.hijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    text-align: center;
+    padding: 10px;
+
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    
+}
+.todo{
+    text-align: justify;
+}
+
+@keyframes animatio{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
